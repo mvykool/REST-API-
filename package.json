@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/mvykool/REST-API-/issues"
   },
-  "homepage": "https://github.com/mvykool/REST-API-#readme"
+  "homepage": "https://github.com/mvykool/REST-API-#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
 }
