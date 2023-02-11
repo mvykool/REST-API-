@@ -1,13 +1,14 @@
 const express = require("express");
+const morgan = require("morgan");
 
 const app = express();
 
-//ROUTES
+//settings
 
-app.get('/', (req,res) => {
-    res.send("home")
-})
+app.set("port", 4000);
 
+//middleware
 
-//listen
-app.listen(3000);
+app.use(morgan("dev"));
+
+export default app;
