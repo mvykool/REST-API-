@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "babel-node": "babel-node --preset=@babel/preset-env",
+    "dev": "nodemon --exec npm run babel-node src/index.js"
   },
   "repository": {
     "type": "git",
