@@ -1,5 +1,6 @@
-const express = require("express");
-const morgan = require("morgan");
+import express from 'express';
+import bodyParser from 'body-parser';
+import morgan from 'morgan';
 
 //routes
 import languageRoutes from "./routes/language.route.js";
